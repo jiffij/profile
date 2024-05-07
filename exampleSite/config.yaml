@@ -289,16 +289,16 @@ params:
     # title: "Custom Name"
     items:
       - title: HKSAR Government Scholarship Fund - Endeavour Merit Award
-        content: ·	Give recognition to students in the pursuit of excellence in academic.
+        content: Give recognition to students in the pursuit of excellence in academic.
         url: https://www.edb.gov.hk/en/edu-system/postsecondary/local-higher-edu/publicly-funded-programmes/scholarship.html
         image: /images/achievment.jpg
-      # - title: Facebook Hackathon Winner
-      #   content: Developed a product using Artificial Intelligence.
-      #   image: /images/achievment.jpg
-      # - title: Hugo Profile
-      #   content: Developed a theme and getting 1K+ downloads per month.
-      #   url: "https://github.com/gurusabarish/hugo-profile"
-      #   image: /images/achievment.jpg
+      - title: Dean's List
+        content: GPA higher than 3.7 in a semester.
+        image: /images/achievment.jpg
+      - title: Best Final Year Project - First Runner up
+        # content: 
+        # url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/achievment.jpg
       # - title: Microsoft Imagine Runner
       #   content: We are developed a product which can help others.
       # - title: Google Summer of Code
