@@ -313,6 +313,7 @@ params:
       - title: Dr. UST
         content: Dr. UST is a groundbreaking telemedicine app, leveraging machine learning for efficient skin lesion diagnosis, enhancing accessibility for both medical staff and patients, particularly valuable during pandemics.
         image: /images/projects/DR.UST.png
+        url: https://github.com/jiffij/health_care.git
         # featured:
         #   name: github
         #   link: https://github.com/jiffij/health_care.git
@@ -331,9 +332,10 @@ params:
       - title: Image Panorama
         content: This is an implementation of Image-Panorama from scratch, using Fast + Brief + Homography + RANSAC .
         image: /images/projects/pair2_points.png
+        url: https://github.com/jiffij/Image-Panorama.git
         # featured:
         #   name: Demo
-        #   link: https://django-converter.herokuapp.com
+        #   link: https://github.com/jiffij/Image-Panorama.git
         badges:
           - "Python"
           - "OpenCV"
@@ -345,6 +347,7 @@ params:
       - title: Trust Prediction
         content: This is a implementation of the self-evolving multilayer perceptron (seMLP) on Capitaland Ascendas REIT prediction.
         image: /images/projects/trust_portfolio.png
+        url: https://github.com/jiffij/trust_prediction.git
         # featured:
         #   name: Demo V2
         #   link: https://hugo-profile-2.netlify.app
@@ -358,6 +361,7 @@ params:
       - title: PlantTraits-ensembles
         content: This is the implementation of the VIT-MHA ensemble model participating the PlantTraits2024 Challenge. We ranked top 10% in Kaggle Leaderboard by the time of submission.
         image: /images/projects/plant-trait.png
+        url: https://github.com/jiffij/PlantTraits-ensemble.git
         # featured:
         #   name: Demo V2
         #   link: https://hugo-profile-2.netlify.app
