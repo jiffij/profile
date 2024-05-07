@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Jeff's Profile"
 theme: hugo-profile
 
 outputs:
@@ -158,14 +158,19 @@ params:
       I am currently working on a project that will be used to help people find the best way to get around the city.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a some technologies I have worked with:"
       items:
-        - "HTML"
-        - "CSS"
+        - "C++"
+        - "Python"
+        - "Java"
         - "JavaScript"
+        - "Flutter"
+        - "React Native"
         - "React"
+        - "Nodejs"
         - "Node"
-        - "Express"
+        - "HTML"
+
 
   # Experience
   experience:
