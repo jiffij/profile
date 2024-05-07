@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://cfjeff.netlify.app"
 languageCode: "en-us"
 title: "Jeff's Profile"
 theme: hugo-profile
@@ -141,6 +141,8 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/jiffij
+        - icon: fab fa-linkedin
+          url: www.linkedin.com/in/jeff-lu-2a27472b2
         # - icon: fab fa-x-twitter
         #   url: https://example.com
       # customIcons:
