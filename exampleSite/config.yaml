@@ -353,7 +353,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/jiffij/trust_prediction.git
 
-        - title: PlantTraits-ensembles
+      - title: PlantTraits-ensembles
         content: This is the implementation of the VIT-MHA ensemble model participating the PlantTraits2024 Challenge. We ranked top 10% in Kaggle Leaderboard by the time of submission.
         image: /images/projects/profile2.jpg
         # featured:
