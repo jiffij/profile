@@ -127,7 +127,7 @@ params:
     title: "Jeff Lu."
     subtitle: "I engineer AI solutions for the digital realm."
     content: "I am a seasoned software and AI engineer committed to crafting innovative solutions that address complex challenges and captivate users with their ingenuity."
-    image: /images/hero.svg
+    image: "/images/me.png" #/images/hero.svg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -153,9 +153,7 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      w
     skills:
       enable: true
       title: "Here are a some technologies I have worked with:"
@@ -328,38 +326,51 @@ params:
           # - icon: fab fa-twitter
           #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      # - title: Image Converter
-      #   content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-      #   image: /images/projects/converter.jpg
-      #   featured:
-      #     name: Demo
-      #     link: https://django-converter.herokuapp.com
-      #   badges:
-      #     - "Django"
-      #     - "Bootstrap"
-      #   links:
-      #     - icon: fab fa-github
-      #       url: https://github.com/gurusabarish/converter
+      - title: Image Panorama
+        content: This is an implementation of Image-Panorama from scratch, using Fast + Brief + Homography + RANSAC .
+        image: /images/projects/converter.jpg
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+          - "Python"
+          - "OpenCV"
+          - "Homography"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jiffij/Image-Panorama.git
 
-      # - title: Hugo Profile V2
-      #   content: A clean and simple Hugo template for personal portfolio and blog.
-      #   image: /images/projects/profile2.jpg
-      #   featured:
-      #     name: Demo V2
-      #     link: https://hugo-profile-2.netlify.app
-      #   badges:
-      #     - "Hugo"
-      #     - "Bootstrap"
-      #     - "Javascript"
-      #   links:
-      #     - icon: fab fa-github
-      #       url: https://github.com/gurusabarish/HugoProfileV2
+      - title: Trust Prediction
+        content: This is a implementation of the self-evolving multilayer perceptron (seMLP) on Capitaland Ascendas REIT prediction.
+        image: /images/projects/profile2.jpg
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Python"
+          - "Pytorch"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jiffij/trust_prediction.git
+
+        - title: PlantTraits-ensembles
+        content: This is the implementation of the VIT-MHA ensemble model participating the PlantTraits2024 Challenge. We ranked top 10% in Kaggle Leaderboard by the time of submission.
+        image: /images/projects/profile2.jpg
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Python"
+          - "Pytorch"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jiffij/PlantTraits-ensemble.git
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
     btnName: Mail me
     btnLink: jefflu707@gmail.com
     # formspree:
@@ -369,18 +380,18 @@ params:
     #   messageCaption: "Enter your message here"
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
+    # recentPosts:
+    #   path: "blogs"
+    #   count: 3
+    #   title: Recent Posts
+    #   enable: true
+    #   disableFeaturedImage: false
     socialNetworks:
       github: https://github.com
       linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
