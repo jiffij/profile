@@ -320,7 +320,8 @@ params:
         badges:
           - "Flutter"
           - "Python"
-          - "ML"
+          - "Tensorflow"
+          - "CNN"
         links:
           # - icon: fa fa-envelope
           #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
@@ -354,11 +355,13 @@ params:
         badges:
           - "Python"
           - "Pytorch"
+          - "Hybrid Model"
+          - "Genetic Algorithm"
         links:
           - icon: fab fa-github
             url: https://github.com/jiffij/trust_prediction.git
 
-      - title: PlantTraits-ensembles
+      - title: PlantTraits prediction
         content: This is the implementation of the VIT-MHA ensemble model participating the PlantTraits2024 Challenge. We ranked top 10% in Kaggle Leaderboard by the time of submission.
         image: /images/projects/plant-trait.png
         url: https://github.com/jiffij/PlantTraits-ensemble.git
@@ -368,9 +371,43 @@ params:
         badges:
           - "Python"
           - "Pytorch"
+          - "Ensemble model"
+          - "Transformer"
         links:
           - icon: fab fa-github
             url: https://github.com/jiffij/PlantTraits-ensemble.git
+      
+      - title: CSWin SlidingWindow
+        content: This project introduces an alternative approach to the CSWin Transformer. The original model employs a Cross-Shaped Window self-attention mechanism and Locally Enhanced Positional Encoding (LePE). Our version enhances the multi-head attention mechanism by integrating a sliding window self attention mechanism method and increasing the number of splits, aiming to refine the attention process and boost efficiency.
+        image: /images/projects/cswin.png
+        url: https://github.com/jiffij/CSWin_SlidingWindow.git
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Python"
+          - "Pytorch"
+          - "Transformer"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jiffij/CSWin_SlidingWindow.git
+      
+      - title: Personal Identity Information (PII) Classification
+        content: This project used modified SHA-RNN and MobileBERT to classify Personal Identity Information (PII). 
+        image: /images/projects/pii.png
+        url: https://github.com/jiffij/pii-classification.git
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Python"
+          - "Pytorch"
+          - "Attention"
+          - "LSTM"
+          - "Transformer"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/jiffij/pii-classification.git
 
   #Contact
   contact:
