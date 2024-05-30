@@ -158,10 +158,9 @@ params:
       
     skills:
       enable: true
-      title: "- Language: Cantonese, English, Mandarin
-      - Data Analysis & Processing
-      - Familiar with Machine Learning Architectures: MLP, CNN, RNN, KNN, Transformer, Auto-Encoder, GAN, etc.
-      Here are a some technologies I have worked with:"
+      title: "I am fluent in Cantonese, English and Mandarin. Experienced in analyzing and preprocessing data of different type, including images, time series data, tabular data.
+      Also, I am Familiar with Machine Learning Architectures including MLP, CNN, RNN, KNN, Transformer, Auto-Encoder, GAN, etc.
+      Furthermore, here are a some technologies I have worked with:"
       items:
         - "C++"
         - "Python"
