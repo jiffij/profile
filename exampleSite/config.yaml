@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "Resume.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -171,6 +171,9 @@ params:
         - "Node"
         - "HTML"
         - "R"
+        - "Pytorch"
+        - "Tensorflow"
+
 
 
   # Experience
@@ -289,7 +292,7 @@ params:
     # title: "Custom Name"
     items:
       - title: HKSAR Government Scholarship Fund - Endeavour Merit Award
-        content: Give recognition to students in the pursuit of excellence in academic.
+        content:  
         url: https://www.edb.gov.hk/en/edu-system/postsecondary/local-higher-edu/publicly-funded-programmes/scholarship.html
         image: /images/achievment.jpg
       - title: Dean's List
