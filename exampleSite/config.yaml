@@ -268,7 +268,7 @@ params:
           name: "Nanyang Technological University, Singapore"
           url: "https://www.ntu.edu.sg/"
         date: "Aug 2023 - May 2024"
-        GPA: "4.5 out of 5.0"
+        GPA: "4.65 out of 5.0 (CGPA), 4.8 out of 5.0 (Best TGAP)"
         # content: |-
         #   Extracurricular Activities
         #     -
@@ -277,7 +277,7 @@ params:
           name: "The Hong Kong University of Science and Technology"
           url: "https://hkust.edu.hk/"
         date: "Sep 2019 - Jun 2023"
-        GPA: "3.293 out of 4.3 (CGA), 3.438 out of 4.3 (MCGA)"
+        GPA: "3.293 out of 4.3 (CGPA), 3.438 out of 4.3 (MCGPA)"
         # content: |-
         #   I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
         #   - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
