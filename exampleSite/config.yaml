@@ -174,6 +174,9 @@ params:
         - "R"
         - "Pytorch"
         - "Tensorflow"
+        - "llama.cpp"
+        - "Watsonx"
+        - "LangChain"
         - "Linux Shell script"
         - "SQL"
         - "Numpy"
@@ -203,6 +206,9 @@ params:
           ·	Involved in building BeX AI platform.
           ·	Build dynamic NLP chains and operations for the AI platform.
           ·	Building Contextual Retrieval RAG system.
+          ·	Helps to optimise AI response time.
+          ·	Taught a Data Fluency Diploma course.
+          ·	Develop MLOps.
 
 
       - job: "Programmer"
